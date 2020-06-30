@@ -3366,19 +3366,19 @@ cozy-client-js@^0.15.0:
     pouchdb-browser "7.0.0"
     pouchdb-find "7.0.0"
 
-cozy-client@13.4.2:
-  version "13.4.2"
-  resolved "https://registry.yarnpkg.com/cozy-client/-/cozy-client-13.4.2.tgz#b495c4da97db2cc97a99fce341ef4d0f037ebe3c"
-  integrity sha512-r2/RGznnov0VmSAk7onnc75UK9cbmNthGwkASOlCnuDZpSYdOxfcCzjIcYQOmEQFuWbOAQzzFMqhju7FYzwtyA==
+cozy-client@13.12.1:
+  version "13.12.1"
+  resolved "https://registry.yarnpkg.com/cozy-client/-/cozy-client-13.12.1.tgz#36a716d26eb4d11df0829953297656478c55c767"
+  integrity sha512-iPTAool9OAbPrtywUTqywyzQsmQHmRMgICGaNt0kBeMdgNrG5qYLgVFktUTTrZ9WBm41CLqbpedqBsFRqAmNOA==
   dependencies:
     btoa "^1.2.1"
     cozy-device-helper "^1.7.3"
     cozy-logger "^1.6.0"
-    cozy-stack-client "^13.4.2"
+    cozy-stack-client "^13.12.1"
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.13"
     microee "^0.0.6"
-    minilog "https://github.com/cozy/minilog.git#master"
+    minilog "git+https://github.com/cozy/minilog.git#master"
     open "^7.0.2"
     prop-types "^15.6.2"
     react-redux "^7.2.0"
@@ -3525,10 +3525,10 @@ cozy-scripts@1.13.2:
     webpack-dev-server "3.1.10"
     webpack-merge "4.2.1"
 
-cozy-stack-client@^13.4.2:
-  version "13.4.2"
-  resolved "https://registry.yarnpkg.com/cozy-stack-client/-/cozy-stack-client-13.4.2.tgz#02f0ae98568fe9b90bb8bac84dda80f345bac797"
-  integrity sha512-9htrdXaIMfRk4mzsGnaSRk4/KsdJ6TvnQDC9n6AJtQ2wF9F/GG3p4QZc9sXO/9i9jhhK6kfbUp8UdDu9GZGC8w==
+cozy-stack-client@^13.12.1:
+  version "13.12.1"
+  resolved "https://registry.yarnpkg.com/cozy-stack-client/-/cozy-stack-client-13.12.1.tgz#9de6e2cbe3202e351f935d5e16faf2fa27cfa3af"
+  integrity sha512-lZhWm3XB3YpvJ6dP1IPLioSJvVQLbPl3eeIrqI6RmGWi4KyIEES6jw1xEWaO7BNLT6p27BboGedqxeZzMXoBjw==
   dependencies:
     detect-node "^2.0.4"
     mime "^2.4.0"
